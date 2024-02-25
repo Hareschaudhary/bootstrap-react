@@ -1,0 +1,5 @@
+.animation{
+    color: red;
+    transition-property: all;
+    transition-duration: 5s;
+}

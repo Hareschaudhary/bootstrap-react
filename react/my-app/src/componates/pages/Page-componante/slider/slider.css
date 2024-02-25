@@ -1,0 +1,70 @@
+.slider{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.slides{
+    width: 300%;
+    display: flex;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.slide{
+    width: 100%;
+    height: 100vh;
+}
+.slide-one{
+    background-image: url("https://cdn.pixabay.com/photo/2023/06/03/13/44/bird-8037744_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.slide-two{
+    background-image: url("https://cdn.pixabay.com/photo/2017/10/13/14/32/bird-2847799_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.slide-three{
+    background-image: url("https://cdn.pixabay.com/photo/2012/06/19/10/32/owl-50267_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.item-one{
+    animation-name: text;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes text{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0px) rotateY(-360deg);
+    }
+}
+.item-two{
+    animation-name: font;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes font{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0px) rotateY(-360deg);
+    }
+}
+.item-three{
+    animation-name: pera;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes pera{
+    0%{
+        transform: rotateX(80deg);
+    }
+    100%{
+        transform: rotateY(-360deg);
+    }
+}

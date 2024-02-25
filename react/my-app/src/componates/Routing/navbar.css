@@ -1,0 +1,12 @@
+
+
+
+nav a:hover{
+   outline: 2px solid white;
+   border-radius: 2px;
+}
+nav a{
+    padding: 10px;
+    margin: 5px;
+    /* background-color: grey; */
+}
