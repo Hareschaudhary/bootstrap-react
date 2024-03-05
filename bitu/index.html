@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav style="border-bottom: 2px solid black;" class="navbar navbar-expand-lg navbar-light bg-light w-100 position-fixed">
+      <div class="container-fluid" >
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <ul class="navbar-nav  d-flex justify-content-around me-3">
+        <li class="nav-item ">
+            <div class="bg-primary d-flex justify-content-center align-items-center" style="width: 30px; height: 30px; border-radius: 50%;">
+                <i class="fa-solid fa-border-none text-white"></i>
+            </div>
+          </li>
+          </ul>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex justify-content-between w-100">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul style="font-size: 12px; width: 85%;" class="navbar-nav  d-flex justify-content-around">
+              <li class="nav-item ">
+                <select style="border-radius: 5px; " class="nav-link p-1 bg-primary  " name="" id="">
+                  <option  value="">Your work</option>
+                </select>
+              </li>
+              <li class="nav-item">
+                <select style="border-radius: 5px;" class="nav-link p-1 bg-primary" name="" id="">
+                  <option value="">Project</option>
+                </select>
+              </li>
+              <li class="nav-item">
+                <select style="border-radius: 5px;" class="nav-link p-1 bg-primary" name="" id="">
+                  <option value="">Filter</option>
+                </select>
+              </li>
+              <li class="nav-item">
+                <select style="border-radius: 5px;" class="nav-link p-1 bg-primary" name="" id="">
+                  <option value="">Dashboard</option>
+                </select>
+              </li>
+              <li class="nav-item">
+                <select style="border-radius: 5px;" class="nav-link p-1 bg-primary" name="" id="">
+                  <option value="">Team</option>
+                </select>
+              </li>
+              <li class="nav-item">
+                <select style="border-radius: 5px;" class="nav-link p-1 bg-primary" name="" id="">
+                  <option value="">Plans</option>
+                </select>
+              </li>
+              <li class="nav-item">
+                <select style="border-radius: 5px;" class="nav-link p-1 bg-primary" name="" id="">
+                  <option value="">Assets</option>
+                </select>
+              </li>
+              <li class="nav-item">
+                <select style="border-radius: 5px;" class="nav-link p-1 bg-primary" name="" id="">
+                  <option value="">Apps</option>
+                </select>
+              </li>
+              <li class="nav-item">
+                <select style="border-radius: 5px;" class="nav-link p-1 bg-primary" name="" id="">
+                  <option value="">Creats</option>
+                </select>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse d-lg-block d-none" id="navbarNav">
+            <ul class="navbar-nav w-50 ms-auto  d-flex justify-content-around">
+              <li class="nav-item">
+                <div class="bg-primary d-flex justify-content-center align-items-center" style="width: 30px; height: 30px; border-radius: 50%;">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="bg-primary d-flex justify-content-center align-items-center" style="width: 30px; height: 30px; border-radius: 50%;">
+                    <i class="fa-solid fa-question"></i>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="bg-primary d-flex justify-content-center align-items-center" style="width: 30px; height: 30px; border-radius: 50%;">
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="bg-primary d-flex justify-content-center align-items-center" style="width: 30px; height: 30px; border-radius: 50%;">
+                 <img style="width: 100%; height: 100%; border-radius: 50%;" src="https://tse1.mm.bing.net/th?id=OIP.79SFfzX65demLshqcGxxZgHaEK&pid=Api&P=0&h=220" alt="">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+   <section style="padding-top: 50px; ">
+    <div class="container-fluid">
+        <div class="row">
+            <div style="border-right: 2px solid black; position: fixed;" class="col-6 col-lg-2 col-sm-3 ps-3">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-start align-items-center text-center">
+                       <div class="row">
+                        <div style="font-size: 30px;" class="col-3  ">
+                            <i class="fa-solid fa-image  me-2"></i>
+                           </div>
+                            <div style="font-size: 10px;" class="col-9  pt-2 ps-2">
+                                <p class="p-0 m-0 fw-bold">Adit tablet app</p>
+                                <p class="p-0 m-0">software project</p>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-start align-items-center mt-2 mb-2 ">
+                        <p class="fw-bold">planning</p>
+                    </div>
+                    <div class="col-12 d-flex justify-content-start align-items-center ">
+                    <ul style="font-size: 10px; width: 100%;" class="p-0 m-0">
+                        <li class="list-unstyled   text-start">
+                            <i class="fa-solid fa-timeline"></i> Timeline
+                        </li>
+                        <li class="list-unstyled   text-start mt-2">
+                            <i class="fa-solid fa-book"></i> backiog
+                        </li>
+                        <li class="list-unstyled   text-start mt-2">
+                            <i class="fa-solid fa-clapperboard"></i> Board
+                        </li>
+                        <li class="list-unstyled   text-start mt-2">
+                            <i class="fa-solid fa-heart"></i> Goals
+                        </li>
+                        <li class="list-unstyled   text-start mt-2">
+                            <i class="fa-solid fa-box-tissue"></i> Issues
+                        </li>
+                        <li class="list-unstyled  fw-bold text-start mt-2 mb-2">
+                            <p class="">Devlopment</p>
+                        </li>
+                        <li class="list-unstyled   text-start mt-2">
+                            <i class="fa-solid fa-code"></i> Code
+                        </li>
+                        <li class="list-unstyled   text-start mt-2">
+                            <i class="fa-solid fa-lock"></i> Security
+                        </li>
+                        <li class="list-unstyled   text-start mt-2">
+                            <i class="fa-solid fa-file"></i></i> Releases
+                        </li>
+                        <li class="list-unstyled  fw-bold text-start mt-2 mb-2">
+                            <p class="">Operations</p>
+                        </li>
+                        <li class="list-unstyled   text-start mt-2">
+                            <i class="fa-solid fa-person-walking-luggage"></i> Deployments
+                        </li>
+                        <li class="list-unstyled   text-start mt-2">
+                            <i class="fa-solid fa-phone"></i> On call
+                        </li>
+                          <hr>
+                          <li class="list-unstyled   text-start mt-2">
+                            <i class="fa-solid fa-book-atlas"></i> Project pages
+                        </li>
+                        <li class="list-unstyled   text-start mt-2">
+                            <i class="fa-brands fa-teamspeak"></i> Team Report
+                        </li>
+                        <li class="list-unstyled   text-start mt-2">
+                            <i class="fa-solid fa-plus"></i> Add shortcut
+                        </li>
+                        <hr>
+                        <li style="font-size: 8px;" class="list-unstyled   text-start ">
+                            <p>
+                                You re in a team managed project
+                            </p>
+                            <p class="fw-bold">
+                                learn more
+                            </p>
+                        </li>
+                    </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="margin-left: 240px;" class="col-6 col-lg-10 col-sm-9 ">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div>
+                            <p>project / Adt tablet App</p>
+                            <p class="fw-bold">ATA Board</p>
+                        </div>
+                        <div class="row align-items-center">
+                           <div class=" col-md-6 m-0 p-0">
+                            <input  type="search">
+                           </div>
+                            <div class=" col-md-6 d-flex m-0 p-0">
+                                <div class="m-2"  style="width: 30px; height: 30px; border-radius: 50%;">
+                                    <img style="width: 100%; height: 100%; border-radius: 50%;" src="https://tse1.mm.bing.net/th?id=OIP.79SFfzX65demLshqcGxxZgHaEK&pid=Api&P=0&h=220" alt="">
+                                </div>
+                                <div style="width: 30px; height: 30px; border-radius: 50%;" class="d-flex justify-content-center align-items-center bg-primary m-2">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div style="width: 30px; height: 30px; border-radius: 50%;" class="d-flex justify-content-center align-items-center bg-primary m-2">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ms-auto">
+                        <div class="row ">
+                            <div class="col-12 pt-3 fs-5  ">
+                                <ul  class="p-0 m-0 d-flex justify-content-between">
+                                    <li class="d-inline-block list-unstyled p-1">
+                                        <i class="fa-solid fa-bolt"></i>
+                                    </li>
+                                    <li class="d-inline-block list-unstyled p-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <!-- <i class="fa-solid fa-paper-plane"></i> -->
+                                    </li>
+                                    <li class="d-inline-block list-unstyled p-1">
+                                        <!-- <i class="fa-solid fa-star"></i> -->
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                    </li>
+                                    <li class="d-inline-block list-unstyled p-1">
+                                        <i class="fa-solid fa-repeat"></i>
+                                    </li>
+                                    <li class="d-inline-block list-unstyled p-1">
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="col-12  pt-3">
+                                <div class="d-flex justify-content-between flex-wrap">
+                                    <p class="m-2">Group by <select class="bg-primary" name="" id=""><option value="">none</option></select></p>
+                                    <p class="m-2 bg-primary text-nowrap"><i class="fa-solid fa-map-location-dot "></i>  <select class="bg-primary"  name="" id=""><option  value="">view settings</option></select></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-sm-4 col-md-3 d-flex ">
+                        <div style="width: 100%; min-height: 300px; box-shadow: 0px 0px 5px black; border-radius: 5px;">
+                        <p class="p-2 fw-bold">To Do</p>
+                        <img style="width: 100%; height: 110px;" src="https://as2.ftcdn.net/v2/jpg/05/47/60/61/1000_F_547606149_7pbbiErZaUgDekMm079BtJtkAflki6s3.jpg" alt="">
+                        <p class="text-center">get started in the backlog</p>
+                        <p class="text-center">get started in the backlog</p>
+                        <div class="text-center">
+                            <button class="btn btn-primary ">go to Backlog</button>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-3 mt-2">
+                        <div style="width: 100%; min-height: 300px; box-shadow: 0px 0px 5px black; border-radius: 5px;">
+                        <p class="p-2 fw-bold">IN Progress</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-3  mt-2">
+                        <div style="width: 100%; min-height: 300px; box-shadow: 0px 0px 5px black; border-radius: 5px;">
+                        <p class="p-2 fw-bold">Done 💞</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 justify-content-end  mt-2">
+                    <div class="col-12 text-end d-flex justify-content-end mt-1">
+                        <p class="ps-2 pe-2 bg-primary" style="border-radius: 5px; width: 140px;">👌quickstart👌</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+  </body>
+</html>
