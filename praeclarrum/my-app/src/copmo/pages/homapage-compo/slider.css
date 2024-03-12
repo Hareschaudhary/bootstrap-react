@@ -1,0 +1,49 @@
+.slides{
+    animation-name: left;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: all;
+    /* transition-duration: 2s; */
+    transform-style: preserve-3d;
+}
+
+@media (min-width:0px){
+    @keyframes left{
+        0%{
+            left: -100px;
+        }
+           25%{
+            left: -200vw;
+        }
+        50%{
+            left: -300vw;
+        }
+        75%{
+            left: -400vw;
+        }
+        100%{
+            left: -500vw;
+        }
+    
+    }
+}
+@media (min-width:580px){
+    @keyframes left{
+        0%{
+            left: -0px;
+        }
+           25%{
+            left: -25vw;
+        }
+        50%{
+            left: -50vw;
+        }
+        75%{
+            left: -75vw;
+        }
+        100%{
+            left: -100vw;
+        }
+    
+    }
+}

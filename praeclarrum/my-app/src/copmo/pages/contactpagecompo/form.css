@@ -1,0 +1,7 @@
+.bg{
+    /* background:black; */
+    background-image: url("https://jooinn.com/images/flower-bouqet-22.jpg");
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
