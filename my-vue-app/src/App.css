@@ -1,0 +1,23 @@
+
+
+
+
+.read-the-docs {
+  color: #888;
+}
+.section{
+  background-image: url("https://images.unsplash.com/photo-1560205596-a1901a55bfc2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  border: 2px solid red;
+  margin: 0px;
+  padding: 0px;
+
+}
+.pass{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.container{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.inp{
+  background-color: rgba(255, 255, 255, 0.2);
+}
